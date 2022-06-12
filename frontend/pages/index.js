@@ -1,16 +1,8 @@
-import Head from 'next/head';
-
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Martijn Bassa</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <h1>Test</h1>
-      </main>
+    <div className='flex h-full flex-col justify-center items-center'>
+      <h1 className='text-4xl mb-5 font-bold'>Home</h1>
+      <span className='text-7xl'>🏡</span>
     </div>
   );
 }

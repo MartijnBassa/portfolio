@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: ['rb.gy']
+        domains: ['i.ibb.co']
     },
     // Directories eslint will lint
     eslint: {
